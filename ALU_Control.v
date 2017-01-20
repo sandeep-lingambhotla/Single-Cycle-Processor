@@ -9,7 +9,6 @@
 `define SUBUFunc 6'b100011
 `define ANDFunc  6'b100100
 `define ORFunc   6'b100101
-//`define XORFunc  6'b100110
 `define XORFunc  6'b000101
 `define NORFunc  6'b100111
 `define SLTFunc  6'b101010
