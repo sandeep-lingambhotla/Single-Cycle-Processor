@@ -35,7 +35,7 @@
 `define LUI  4'b1110
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Sai Sandeep L V
 // 
 // Create Date:    18:23:47 11/13/2016 
 // Design Name: 
