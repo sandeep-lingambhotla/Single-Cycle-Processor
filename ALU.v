@@ -52,6 +52,7 @@ module ALU( BusA, BusB, ALUCtrl, BusW, Zero
 		`AND: BusW = BusA & BusB;
 			
 		`OR:  BusW = BusA | BusB;
+		
 		`ADD:	BusW = $signed(BusA) + $signed(BusB);
 			
 		`SLL: BusW = BusB << BusA[4:0];
@@ -62,13 +63,13 @@ module ALU( BusA, BusB, ALUCtrl, BusW, Zero
 			
 		`SLT: BusW = ($signed(BusA) < $signed(BusB)) ? 1:0;
 			
-	     `ADDU: BusW = (BusA) + (BusB);
+	    	`ADDU: BusW = (BusA) + (BusB);
 			
-	     `SUBU: BusW = (BusA) - (BusB);
+	     	`SUBU: BusW = (BusA) - (BusB);
 			
 		`XOR: BusW = BusA ^ BusB;
 			
-     	     `SLTU: BusW = (BusA < BusB) ? 1:0;
+     	     	`SLTU: BusW = (BusA < BusB) ? 1:0;
 			
 		`NOR: BusW = ~(BusA | BusB);
 			
